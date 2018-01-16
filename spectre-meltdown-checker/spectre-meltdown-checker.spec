@@ -37,4 +37,7 @@ install -D --preserve-timestamps %{name}.sh %{buildroot}%{_bindir}/%{name}
 %{_bindir}/*
 
 %changelog
+* Tue Jan 16 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.31-0.1
+- Initial package
+
 

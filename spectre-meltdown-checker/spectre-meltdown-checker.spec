@@ -1,6 +1,6 @@
 Name:       spectre-meltdown-checker
 Version:    0.31
-Release:    0.1%{?dist}
+Release:    0.2%{?dist}
 
 Summary:    Spectre & Meltdown vulnerability/mitigation checker for Linux
 License:    GPLv3
@@ -9,16 +9,21 @@ Source0:    https://github.com/speed47/%{name}/archive/v%{version}.tar.gz#/%{nam
 
 BuildArch:  noarch
 
-Requires:   awk
+Requires:   gawk
 Requires:   bash
 Requires:   binutils
 Requires:   coreutils
 Requires:   gzip
 Requires:   grep
-Requires:   kmod
 Requires:   sed
-Requires:   util-linux
 Requires:   which
+%if 0%{?rhel} == 6
+Requires:   module-init-tools
+Requires:   util-linux-ng
+%else
+Requires:   kmod
+Requires:   util-linux
+%endif
 
 %description
 %{summary}.

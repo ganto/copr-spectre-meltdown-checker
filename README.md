@@ -1,4 +1,4 @@
-# goaccess RPM Sources
+# spectre-meltdown-checker RPM Sources
 
 This repository contains the RPM spec file to build the [spectre-meltdown-checker](https://github.com/speed47/spectre-meltdown-checker)
 RPM in the Fedora [ganto/spectre-meltdown-checker](https://copr.fedorainfracloud.org/coprs/ganto/spectre-meltdown-checker/)

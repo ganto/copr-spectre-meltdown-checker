@@ -1,6 +1,6 @@
 Name:       spectre-meltdown-checker
 Version:    0.32
-Release:    0.2%{?dist}
+Release:    0.3%{?dist}
 
 Summary:    Spectre & Meltdown vulnerability/mitigation checker for Linux
 License:    GPLv3
@@ -39,7 +39,7 @@ BuildRequires: help2man
 install -D --preserve-timestamps %{name}.sh %{buildroot}%{_bindir}/%{name}
 install -d %{buildroot}%{_mandir}/man1
 help2man %{buildroot}%{_bindir}/%{name} -n "Spectre and Meltdown mitigation detection tool" \
-    --no-info --version-string=%{version} --output=%{buildroot}%{_mandir}/man1/%{name}.1
+    --no-info --output=%{buildroot}%{_mandir}/man1/%{name}.1
 
 %files
 %doc README.md

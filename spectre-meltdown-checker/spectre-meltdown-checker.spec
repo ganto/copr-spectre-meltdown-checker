@@ -48,6 +48,9 @@ help2man %{buildroot}%{_bindir}/%{name} -n "Spectre and Meltdown mitigation dete
 %{_mandir}/man1/%{name}*
 
 %changelog
+* Sun Jan 21 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.32-0.3
+- Avoid unsupported help2man argument to fix EPEL 6 build error
+
 * Sun Jan 21 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.32-0.2
 - Fix rpmlint error about mandir ownership
 

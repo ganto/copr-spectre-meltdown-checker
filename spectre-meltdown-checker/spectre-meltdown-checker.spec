@@ -48,6 +48,9 @@ help2man %{buildroot}%{_bindir}/%{name} -n "Spectre and Meltdown mitigation dete
 %{_mandir}/man1/%{name}*
 
 %changelog
+* Fri Jan 26 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.33-0.1
+- Update to version 0.33
+
 * Sun Jan 21 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.32-0.3
 - Avoid unsupported help2man argument to fix EPEL 6 build error
 

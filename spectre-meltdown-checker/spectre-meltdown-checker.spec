@@ -1,6 +1,6 @@
 Name:       spectre-meltdown-checker
-Version:    0.32
-Release:    0.3%{?dist}
+Version:    0.33
+Release:    0.1%{?dist}
 
 Summary:    Spectre & Meltdown vulnerability/mitigation checker for Linux
 License:    GPLv3

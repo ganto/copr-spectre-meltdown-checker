@@ -48,6 +48,10 @@ help2man %{buildroot}%{_bindir}/%{name} -n "Spectre and Meltdown mitigation dete
 %{_mandir}/man1/%{name}*
 
 %changelog
+* Thu Feb 01 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.34-0.1
+- Update to 0.34.
+
+
 * Fri Jan 26 2018 Reto Gantenbein <reto.gantenbein@linuxmonk.ch> 0.33-0.1
 - Update to version 0.33
 
